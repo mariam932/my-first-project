@@ -1,0 +1,135 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "sofia", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container_1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) {
+  .container_1 {
+    width: 750px;
+  }
+}
+
+/* Meduim Screens */
+
+@media (min-width: 992px) {
+  .container_1 {
+    width: 970px;
+  }
+}
+
+/* Large screens */
+
+@media (min-width: 1200px) {
+  .container_1 {
+    width: 1170px;
+  }
+}
+
+/* End Global Rules */
+
+/* body */
+
+header .container_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.login {
+  padding: 20px;
+  background-color: #d9d1d1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.container_1 input[type="password"],
+.container_1 input[type="text"] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+  text-align: center;
+}
+
+.container_1 input [type="password"]:focus,
+.container_1 input [type="text"]:focus {
+  background-color: white;
+  outline: none;
+}
+
+.signin {
+  background-color: white;
+  color: black;
+  margin: 5px 0;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+
+.signin:hover {
+  background-color: black;
+  color: white;
+}
+
+.signup a {
+  color: white;
+}
+
+.signup a:hover {
+  color: black;
+}
+
+.signup {
+  height: 50px;
+  width: 100%;
+}
+
+.signup {
+  color: white;
+  background-color: #c6b8b8;
+  text-align: center;
+  padding: 20px;
+}
